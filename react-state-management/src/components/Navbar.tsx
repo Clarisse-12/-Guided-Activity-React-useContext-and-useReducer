@@ -1,3 +1,5 @@
+/* Navbar Component */
+
 import React from "react";
 import { useTheme } from "../context/ThemeContext";
 import styles from "./Navbar.module.css";
