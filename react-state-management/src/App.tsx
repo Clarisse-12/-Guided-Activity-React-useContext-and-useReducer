@@ -1,4 +1,4 @@
-// app/src/App.tsx
+// app
 import TaskManager from './components/TaskManager';
 import { ThemeProvider, useTheme } from './context/ThemeContext';
 import Navbar from './components/Navbar';
@@ -19,8 +19,7 @@ function AppContent() {
 function App() {
   return (
     <ThemeProvider>
-      <Navbar />
-      <TaskManager />
+      <AppContent />
     </ThemeProvider>
   );
 }
